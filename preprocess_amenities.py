@@ -1,7 +1,7 @@
 #############################################
-2/23/2020
-preprocess_amenities.py
-Written By: @AGeoCoder
+# 2/23/2020
+# preprocess_amenities.py
+# Written By: @AGeoCoder
 #############################################
 
 import csv
