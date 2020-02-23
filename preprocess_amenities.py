@@ -185,6 +185,7 @@ with open('amenities.csv', mode='w', newline='') as test_file:
 
             # skip the first row of titles
             if line_count > 1:
+                # Write the row with all the information that was just gathered
                 csv_writer.writerow([id_variable, parking, hvac, hot_water, breakfast, kitchen, laundry, internet,
                                      laptop_friendly, television, family_friendly, pets_allowed, renters_pets,
                                      private_entrance, private_bathroom, essentials, twenty_four_hour_check_in])
